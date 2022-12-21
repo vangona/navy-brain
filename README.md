@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 군청색의 뇌
 
-## Getting Started
+## 기술스택
 
-First, run the development server:
+### Next.js
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- 코드스플리팅, Image 등을 통한 쉬운 성능 개선, 생산성 기대
+- 이후 블로그처럼 포스트마다 URL을 따로 줄 것인데, 이때 SSR이나 SSG를 사용하면 성능 최적화에 적합하다고 판단함.
+- 라우팅 방식등 핵심 로직이 아닌 것들을 Next.js 프레임워크에 의존하여 필요한 기능 구현에 집중하고자함.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Typescript, ESLint, Prettier
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 개인프로젝트이니 부족해질 수 있는 코드 퀄리티를 보완하기 위해 정적 테스트, 코드 스타일 유지 도구 사용
